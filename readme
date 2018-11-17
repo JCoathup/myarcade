@@ -1,0 +1,19 @@
+A very simple canvas game...
+
+Issues
+======
+
+make into PWA
+game end resets score too late
+colour bricks
+sound???
+mobile controls
+upload to heroku and github -> ARCADE
+
+
+enhancements
+============
+
+add more games - form arcade
+improve game over
+game specials - double points etc
