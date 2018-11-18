@@ -245,7 +245,7 @@ document.addEventListener("mouseup", function(e) {
     //update();
   }
 })
-ocument.addEventListener("touchstart", function(e) {
+document.addEventListener("touchstart", function(e) {
   if (e.target && e.target.id == "leftArrow"){
     console.log("LEFT");
     LEFT = true;
