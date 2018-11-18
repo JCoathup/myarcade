@@ -245,6 +245,26 @@ document.addEventListener("mouseup", function(e) {
     //update();
   }
 })
+ocument.addEventListener("touchstart", function(e) {
+  if (e.target && e.target.id == "leftArrow"){
+    console.log("LEFT");
+    LEFT = true;
+  }
+  if (e.target && e.target.id == "rightArrow"){
+    console.log("RIGHT");
+    RIGHT = true
+    //update();
+  }
+})
+document.addEventListener("touchend", function(e) {
+  if (e.target && e.target.id == "leftArrow"){
+    LEFT = false;
+  }
+  if (e.target && e.target.id == "rightArrow"){
+    RIGHT = false;
+    //update();
+  }
+})
 let RIGHT = false;
 let LEFT = false
 let velX=0;
