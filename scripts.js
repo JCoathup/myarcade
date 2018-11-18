@@ -1,7 +1,8 @@
 let canvas = document.getElementById("canvas");
 let controls = document.getElementById("controls");
+
 canvas.setAttribute("width", window.innerWidth);
-canvas.setAttribute("height", (window.innerHeight - controls.style.height));
+canvas.setAttribute("height", window.innerHeight);
 let context = canvas.getContext("2d");
 let framesPerSecond = 30;
 let ballX = canvas.width/2;
@@ -15,7 +16,7 @@ const KEY_LEFT_ARROW = 37;
 const KEY_RIGHT_ARROW = 39;
 const PADDLE_WIDTH = 100;
 const PADDLE_THICKNESS = 10;
-const PADDLE_DIST_BOTTOM = 60;
+const PADDLE_DIST_BOTTOM = 130;
 const BRICK_W = canvas.width/10;
 const BRICK_H = canvas.height/30;
 let BRICK_COLS = 10;
