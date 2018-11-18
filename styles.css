@@ -864,8 +864,10 @@ body {
   bottom:0;
   left: 70px;
   padding:15px;
-  text-align:center;
+  padding-left:10%;
+  text-align:left;
   width:90%;
+  font-size:48px;
 }
 #reset{
   margin-left:2%;
@@ -880,6 +882,7 @@ body {
 button{
   background-color:green;
   color:white;
+  font-size:48px;
 }
 span{
   color: red;
