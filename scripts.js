@@ -1,6 +1,7 @@
 let canvas = document.getElementById("canvas");
+let controls = document.getElementById("controls");
 canvas.setAttribute("width", window.innerWidth);
-canvas.setAttribute("height", window.innerHeight);
+canvas.setAttribute("height", window.innerHeight - controls.style.height);
 let context = canvas.getContext("2d");
 let framesPerSecond = 30;
 let ballX = canvas.width/2;
