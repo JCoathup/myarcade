@@ -907,8 +907,10 @@ span{
   font-size:96px;
 }
 #leftArrow {
+  position:absolute;
   left:0;
 }
 #rightArrow {
+  position:absolute;
   right: 0;
 }
