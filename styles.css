@@ -880,7 +880,7 @@ body {
 #_controls {
   width:100%;
   height:22vh;
-  position:absolute;
+  position:fixed;
   bottom:0;
   left:0;
 }
@@ -899,18 +899,18 @@ span{
   color: red;
 }
 #_controls button {
-  position:absolute;
-  bottom:0;
   background-color:transparent;
   color: #ccc;
   border:0;
   font-size:96px;
 }
 #leftArrow {
-  position:absolute;
+  position:fixed;
   left:0;
+  bottom:0;
 }
 #rightArrow {
-  position:absolute;
+  position:fixed;
   right: 0;
+  bottom:0;
 }
