@@ -14,7 +14,7 @@ let playerLives = 3;
 
 const KEY_LEFT_ARROW = 37;
 const KEY_RIGHT_ARROW = 39;
-const PADDLE_WIDTH = 100;
+const PADDLE_WIDTH = canvas.width/7;
 const PADDLE_THICKNESS = 10;
 const PADDLE_DIST_BOTTOM = 130;
 const BRICK_W = canvas.width/10;
