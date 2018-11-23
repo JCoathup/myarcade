@@ -864,13 +864,17 @@ body {
   bottom:0;
   left: 70px;
   padding-left:5%;
-  padding-bottom:3%;
+  padding-top:2%;
+  padding-bottom:1%;
   text-align:left;
   width:85%;
   font-size:1em;
+  display:flex;
+  flex-direction:row;
 }
 #reset{
   margin-left:2%;
+  position: relative;
 }
 #controls {
   width:100%;
@@ -883,6 +887,7 @@ body {
   background-color:green;
   color:white;
   font-size:36px;
+  position: relative;
 }
 span{
   color: red;
