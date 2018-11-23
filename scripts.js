@@ -60,10 +60,9 @@ function ballMove(){
       if (playerLives == 0){
           let details = document.getElementById("_details");
           details.innerHTML += "<span>GAME OVER</span>";
-          wrapper.innerHTML += "<button id='_reset'>PLAY</button>";
+          wrapper.innerHTML = "<button id='_reset'>PLAY</button>";
           let reset = document.querySelector("#_reset");
-          let buttonWidth = reset.width;
-          let buttonHeight = reset.style.height;
+          reset.style.display = "block";
           reset.style.left = (canvas.width/2 - reset.offsetWidth/2)+"px";
           reset.style.top = (window.innerHeight/2 - reset.offsetHeight/2)+"px";
           ballSpeedX = 0;
