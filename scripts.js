@@ -76,7 +76,7 @@ function ballMove(){
   }
 }
 document.addEventListener("click", function(e){
-  if (e.target && e.target.id == "reset"){
+  if (e.target && e.target.id == "_reset"){
     e.target.style.display = "none";
     playerLives = 3;
     playerScore = 0;
