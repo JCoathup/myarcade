@@ -888,3 +888,17 @@ span{
   color: red;
   margin-left:100px;
 }
+#controls button {
+  position:absolute;
+  bottom:0;
+  background-color:transparent;
+  color: #ccc;
+  border:0;
+  font-size:96px;
+}
+#leftArrow {
+  left:0;
+}
+#rightArrow {
+  right: 0;
+}
