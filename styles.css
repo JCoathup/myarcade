@@ -846,7 +846,7 @@ url("./fonts/icofont.woff") format("woff");
 }
 
 
-canvas {
+_canvas {
   text-align:center;
 }
 
@@ -857,7 +857,7 @@ body {
   margin:0;
   padding:0;
 }
-#details{
+#_details{
   color: white;
   font-family: "Lato", "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
   position:absolute;
@@ -872,26 +872,30 @@ body {
   display:flex;
   flex-direction:row;
 }
-#reset{
-  margin-left:2%;
-}
-#controls {
+#_controls {
   width:100%;
   height:22vh;
   position:absolute;
   bottom:0;
   left:0;
 }
-#controls button#reset{
+button#reset{
+  top:42%;
+  left:41%;
   background-color:green;
   color:white;
-  font-size:24px;
-  position: relative;
+  font-size:96px;
+  position: absolute;
+}
+#_wrapper {
+  position:absolute;;
+  width: 100vw;
+  height:100vh;
 }
 span{
   color: red;
 }
-#controls button {
+#_controls button {
   position:absolute;
   bottom:0;
   background-color:transparent;

@@ -1,5 +1,6 @@
-let canvas = document.getElementById("canvas");
-let controls = document.getElementById("controls");
+let canvas = document.getElementById("_canvas");
+let controls = document.getElementById("_controls");
+let wrapper = document.getElementById("_wrapper");
 
 canvas.setAttribute("width", window.innerWidth);
 canvas.setAttribute("height", window.innerHeight);
@@ -57,8 +58,9 @@ function ballMove(){
       updateScore();
       ballReset();
       if (playerLives == 0){
-          let details = document.getElementById("details");
-          details.innerHTML += "<span>GAME OVER</span><button id='reset'>PLAY</button>";
+          let details = document.getElementById("_details");
+          details.innerHTML += "<span>GAME OVER</span>";
+          wrapper.innerHTML += "<button id='reset'>PLAY</button>";
           ballSpeedX = 0;
           ballSpeedY = 0;
       }
@@ -78,7 +80,7 @@ document.addEventListener("click", function(e){
   }
 })
 function updateScore(){
-  let details = document.getElementById("details");
+  let details = document.getElementById("_details");
   details.innerHTML = "SCORE: " + playerScore + " LIVES: " + playerLives;
 }
 function ballBrickHandling(){
