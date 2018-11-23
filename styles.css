@@ -845,7 +845,12 @@ url("./fonts/icofont.woff") format("woff");
   width: auto;
 }
 
-
+html {
+  position:fixed;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
 _canvas {
   text-align:center;
 }
