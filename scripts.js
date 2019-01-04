@@ -278,7 +278,7 @@ let RIGHT = false;
 let LEFT = false
 let velX=0;
 let speed=10;
-let friction = 0.98;
+let friction = 0.9; //previously 0.98
 let keys = [];
 function update() {
     requestAnimationFrame(update);
