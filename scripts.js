@@ -284,16 +284,16 @@ function update() {
     requestAnimationFrame(update);
     if ((keys[39]) || (RIGHT)) {
         if (velX < speed) {
-            velX++;
+            velX+=2;
         }
     }
     if ((keys[37])  || (LEFT)){
         if (velX > -speed) {
-            velX--;
+            velX-=2;
         }
     }
 
-    velX *= friction; 
+    velX *= friction;
     paddleX += velX;
 
     if (paddleX >= canvas.width - PADDLE_WIDTH ) {
