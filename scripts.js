@@ -293,7 +293,7 @@ function update() {
         }
     }
 
-    velX *= friction * 2; //previously without *2
+    velX *= friction; 
     paddleX += velX;
 
     if (paddleX >= canvas.width - PADDLE_WIDTH ) {
