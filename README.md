@@ -1,6 +1,6 @@
 # MyArcade
 
-[![N|Solid](https://myarcade.herokuapp.com/images/icon256.png)](https://myarcade.herokuapp.com)
+[![N|Solid](images/icon256.png)](https://myarcade.herokuapp.com)
 
 MyArcade is a simple mobile-ready, HTML5 canvas game. Look out for more additions.
 

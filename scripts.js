@@ -284,12 +284,12 @@ function update() {
     requestAnimationFrame(update);
     if ((keys[39]) || (RIGHT)) {
         if (velX < speed) {
-            velX+=2;
+            velX+=2; //previously ++
         }
     }
     if ((keys[37])  || (LEFT)){
         if (velX > -speed) {
-            velX-=2;
+            velX-=2; //previously --
         }
     }
 
