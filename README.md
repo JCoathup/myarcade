@@ -4,6 +4,8 @@
 
 MyArcade is a simple mobile-ready, HTML5 canvas game. Look out for more additions.
 
+Click on the icon above or visit: https://myarcade.herokuapp.com
+
 # Motivation
 
 Built essentially as a personal project. Please be patient. Improved playability and more games to be added soon.
