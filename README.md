@@ -14,6 +14,7 @@ MyArcade uses:
 
 * [JavaScript]
 * [HTL5 canvas]
+* [nodeJS]
 
 ### Development
 
