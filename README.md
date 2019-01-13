@@ -1,4 +1,5 @@
 # MyArcade
+### Author: Jeremy Coathup
 
 [![N|Solid](images/icon256.png)](https://myarcade.herokuapp.com)
 
